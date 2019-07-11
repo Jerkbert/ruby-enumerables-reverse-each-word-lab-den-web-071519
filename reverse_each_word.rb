@@ -1,4 +1,4 @@
-def reverse(sentence)
+def reverse_each_word(sentence)
   sentence = sentence.split(' ')
   reversed=[]
   sentence.each do |char|
