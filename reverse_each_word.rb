@@ -6,6 +6,6 @@
 def reverse_each_word(sentence)
   sentence = sentence.split(' ')
   reversed = []
-  sentence.each { |word| reversed.unshift(word) }
+  sentence.each { |word| reversed.unshift(word).reverse }
   return reversed.join(' ').reverse
 end
